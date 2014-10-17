@@ -1,0 +1,22 @@
+PARAMETERS x
+n=0
+z=LEN(x)
+m=SUBSTR(x,1,1)
+?m
+DO WHILE z>0
+*?SUBSTR(x,n,1)
+IF SUBSTR(x,n,1)==' '
+
+ DO WHILE SUBSTR(x,n,1)!=' '
+ 	
+ 	?SUBSTR(x,n,1)
+ 	
+ 	n=n+1
+ 	z=z-1
+ ENDDO
+ENDIF
+n=n+1
+z=z-1
+ENDDO
+
+    
