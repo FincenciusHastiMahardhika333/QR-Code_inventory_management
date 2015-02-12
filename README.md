@@ -1,3 +1,5 @@
+About Project
+=============
 This is a QR Code based inventory management System design for Jairaj Ancillaries Pvt Ltd.
 
 The inventory of Jairaj was poorly managed with no data of outflow being recorded in the ERP and had less security. To solve these issues, a custom QR code based inventory management software was developed for Jairaj using visual fox pro.
